@@ -1,5 +1,3 @@
-function isAllowedToVote(age) {
-  return age >= 18;
-}
+const isAllowedToVote = (age) => age >= 18;
 
 console.log(isAllowedToVote(18));
